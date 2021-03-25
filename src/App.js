@@ -9,9 +9,9 @@ import Header from './components/Header';
 import ServiceContainer from './components/ServiceContainer';
 import useScript from './hooks/useScript';
 
-const HEADER_TITLE = 'Watson Speech to Text';
+const HEADER_TITLE = 'Vilas Speech to Text';
 const HEADER_DESCRIPTION =
-  'IBM Watson Speech to Text is a cloud-native API that transforms voice into written text.';
+  '';
 const HEADER_LINKS = [
   <Link
     className="link"
@@ -20,7 +20,7 @@ const HEADER_LINKS = [
     rel="noopener noreferrer"
     href="https://cloud.ibm.com/apidocs/speech-to-text"
   >
-    <p className="link-text">API reference</p>
+    <p className="link-text">Vilas</p>
     <Api124 className="link-icon" />
   </Link>,
   <Link
